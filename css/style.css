@@ -35,6 +35,10 @@ body {
 
 
 /* HEADER */
+.nav-menu {
+    height: 70px;
+}
+
 .top.nav-menu {
     background-color: #f5f8fa;
 }
@@ -51,7 +55,7 @@ body {
     text-decoration: none;
 }
 
-.nav-menu .login ul {
+.nav-menu .right-text ul {
     text-align: right;
 }
 
