@@ -1,0 +1,68 @@
+/* RESET */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* COMMON */
+
+.container {
+    width:1024px;
+    margin:auto;
+}
+
+/* Clearfix e float */
+.clearfix::after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.col {
+    float: left;
+}
+
+
+/* two columns */
+.two-col {
+    width:50% ;
+}
+
+
+/* HEADER */
+.top.nav-menu {
+    background-color: #f5f8fa;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+}
+
+.nav-menu .login ul {
+    text-align: right;
+}
+
+
+
+
+/* jumbotron */
+.jumbotron {
+    height: 700px;
+    background-image: url(../img/jumbotron.png);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: 475 0; 
+}
