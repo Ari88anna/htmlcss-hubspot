@@ -36,13 +36,20 @@ body {
 .main-text {
     font-size: 13px;
     line-height: 25px;
+    padding: 5px 0;
 }
 
 .button {
+    display: inline-block;
     border-radius: 5px;
     background-color: #ff7a59;
     color: white;
     padding: 10px 10px;
+}
+
+.bigger-but{
+    padding: 20px 40px;
+    font-size: 12px;
 }
 
 
@@ -75,6 +82,10 @@ body {
     text-align: right;
 }
 
+.fa-search {
+    color: #00bbac;
+}
+
 .noback-button {
     border: 1px solid #ff7a59;
     border-radius: 5px;
@@ -102,8 +113,17 @@ body {
 }
 
 .title h1 {
-    font-size: 45px;
-    padding: 10px 0;
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.jumbotron .title p {
+    padding: 50px 0;
+}
+
+.mini-text{
+    font-size: 10px;
+    padding-top: 40px;
 }
 
 
