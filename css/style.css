@@ -290,23 +290,33 @@ section.learn-grow {
 }
 
 /* costomers section */
-
-.two-col {
-    width: 50%;    
-}
-
 .costomers {
-    padding: 30px 0;
+    padding: 30px 0; 
 }
+
 .costomers-container {
     width: 70%;
     margin: auto;
-    padding: 30px 0;
+    padding: 30px 0;    
 }
 
-.costomers-number {
-    width: 40%;
-    text-align: left;
+.col-small {
+    width: 30%;
+    text-align: left; 
+    padding: 0 50px;   
+}
+
+.col-brand {
+    width: 70%;
+}
+
+.col-brand img {
+    height:10px;
+}
+
+.brand-binder{
+    display:inline-block;
+    
 }
 
 
