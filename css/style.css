@@ -41,6 +41,7 @@ body {
 .three-col .col {
     width:30%;
     background-color: white;
+    padding: 20px 30px;
 }
 
 .three-col .col:nth-child(2) {
@@ -98,6 +99,7 @@ a {
     border-bottom: 1px solid darkslategray;
 }
 
+.three-col ul,
 .col-right ul,
 .nav-menu ul {
     list-style-type: none;
@@ -210,6 +212,14 @@ a {
 /* marketing sales service */
 .three-col {
     padding: 30px 0;
+}
+
+.three-col .col .divider {
+    border-bottom: 1px solid black;
+}
+
+.three-col .col li {
+    text-align: left;    
 }
 
 
