@@ -63,6 +63,10 @@ body {
     padding: 30px 0;
 }
 
+.mini-text {
+    font-size: 10px;    
+}
+
 /* button */
 .button {
     display: inline-block;
@@ -158,10 +162,11 @@ a {
     padding-top: 20px;
 }
 
-.mini-text {
-    font-size: 10px;
-    padding-top: 40px;
+p.mini-text {
+    padding: 40px 0;
 }
+
+
 
 /* MAIN */
 
@@ -256,6 +261,25 @@ section.learn-grow {
     width: 25%;
     border-bottom: 1px solid white;
 }
+
+.col.upper-col img{
+    height: 30px;
+}
+
+.col .figures {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.fa-plus {
+    font-size:13px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+
+
+
 
 
 
