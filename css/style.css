@@ -20,6 +20,10 @@ body {
     text-align: center;
 }
 
+.spacing {
+    padding: 50px, 0;
+}
+
 /* Clearfix e float */
 .clearfix::after {
     content: "";
@@ -56,7 +60,7 @@ body {
 .main-text {
     font-size: 13px;
     line-height: 25px;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 /* button */
@@ -86,7 +90,6 @@ a {
     font-size: 11px;
     padding-left: 5px;
 }
-
 
 
 /* HEADER */
@@ -161,11 +164,15 @@ a {
 }
 
 /* MAIN */
-.main-section {
-    background-color: #f5f8fa; 
-}
 
 /* main-section */
+.main-section {
+    background-color: #f5f8fa;     
+}
+ section.main-section {
+     padding: 40px 0;
+ }
+
 
 /* integration */
 .integration {
@@ -209,18 +216,47 @@ a {
     padding:20px 0;
 }
 
+
 /* marketing sales service */
 .three-col {
     padding: 30px 0;
 }
 
 .three-col .col .divider {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #586993;    
+    margin: 40px 0;
+}
+
+.three-col .col ul {
+    padding: 30px 0;
 }
 
 .three-col .col li {
     text-align: left;    
 }
+
+/* Learn and grow */
+
+section.learn-grow {
+    padding: 50px 0;
+}
+.learn-grow {
+    background-color: #2ecab7;
+    color: white;
+}
+
+.learn-title {
+    width:80%;
+    margin: auto;
+}
+
+/* results table */
+
+.results .upper-col {
+    width: 25%;
+    border-bottom: 1px solid white;
+}
+
 
 
 
