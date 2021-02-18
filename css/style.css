@@ -16,6 +16,10 @@ body {
     margin: auto;
 }
 
+.text-centered {
+    text-align: center;
+}
+
 /* Clearfix e float */
 .clearfix::after {
     content: "";
@@ -31,6 +35,20 @@ body {
 /* two columns */
 .two-col {
     width: 50% ;
+}
+
+/* three columns */
+.three-col .col {
+    width:30%;
+    background-color: white;
+}
+
+.three-col .col:nth-child(2) {
+    margin: 0 5%;
+}
+
+.three-col .col img {
+    height: 70px;
 }
 
 /* paragraph */
@@ -57,6 +75,17 @@ body {
 a {
     text-decoration: none;
 }
+
+.fa-check-circle {
+    color: #ff7a59;
+}
+
+.fa-text {
+    color: black;
+    font-size: 11px;
+    padding-left: 5px;
+}
+
 
 
 /* HEADER */
@@ -178,15 +207,12 @@ a {
     padding:20px 0;
 }
 
-.fa-check-circle {
-    color: #ff7a59;
+/* marketing sales service */
+.three-col {
+    padding: 30px 0;
 }
 
-.fa-text {
-    color: black;
-    font-size: 11px;
-    padding-left: 5px;
-}
+
 
 
 
