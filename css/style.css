@@ -257,8 +257,20 @@ section.learn-grow {
 
 /* results table */
 
-.results .upper-col {
+.col.amount {
     width: 25%;
+    padding: 30px 0;
+}
+
+.col.amount {
+    border-right: 1px solid white;
+}
+
+.col.amount:nth-child(4) {
+    border-right: none;
+}
+
+.results .upper-col {    
     border-bottom: 1px solid white;
 }
 
