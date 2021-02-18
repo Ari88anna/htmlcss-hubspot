@@ -289,6 +289,29 @@ section.learn-grow {
     padding-left: 5px;
 }
 
+/* costomers section */
+
+.two-col {
+    width: 50%;    
+}
+
+.costomers {
+    padding: 30px 0;
+}
+.costomers-container {
+    width: 70%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.costomers-number {
+    width: 40%;
+    text-align: left;
+}
+
+
+
+
 
 
 
