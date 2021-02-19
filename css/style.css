@@ -103,6 +103,11 @@ a {
     list-style-type: none;
 }
 
+/* hover */
+* a:hover {
+    text-decoration: underline;
+}
+
 /* HEADER */
 .nav-menu {
     padding: 20px 0;
