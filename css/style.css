@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* COMMON */
@@ -21,7 +21,7 @@ body {
 }
 
 .spacing {
-    padding: 50px 0 0px 0;
+    padding: 50px 0 0 0;
 }
 
 /* Clearfix e float */
@@ -34,7 +34,6 @@ body {
 .col {
     float: left;
 }
-
 
 /* two columns */
 .two-col {
@@ -56,15 +55,20 @@ body {
     height: 70px;
 }
 
+/* four columns */
+.four-col {
+    width: 25%;    
+}
+
 /* paragraph */
 .main-text {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 25px;
     padding: 30px 0;
 }
 
 .mini-text {
-    font-size: 10px;    
+    font-size: 12px;    
 }
 
 /* button */
@@ -95,21 +99,18 @@ a {
     padding-left: 5px;
 }
 
-
+.nolistyle {
+    list-style-type: none;
+}
 
 /* HEADER */
 .nav-menu {
-    padding: 28px 0;
+    padding: 20px 0;
 }
 
 .top.nav-menu {
     background-color: #f5f8fa;
     border-bottom: 1px solid darkslategray;
-}
-
-.nolistyle {
-    list-style-type: none;
-
 }
 
 .col-right ul li,
@@ -145,7 +146,8 @@ a {
 .jumbotron {
     height: 700px;
     background-image: url(../img/jumbotron.png);
-    background-color: #fef6ee;
+    /* test */
+    /* background-color: #fef6ee; */
 }
 
 /* Title */
@@ -163,8 +165,6 @@ p.mini-text {
     padding: 40px 0;
 }
 
-
-
 /* MAIN */
 
 /* main-section */
@@ -173,7 +173,7 @@ p.mini-text {
 }
  section.main-section {
      padding: 40px 0;
- }
+}
 
 
 /* integration */
@@ -214,10 +214,21 @@ p.mini-text {
     width: 70%;
 }
 
+.col-right h5 {
+    display: inline-block;
+    padding-right: 70px;
+}
+
+.horizontal-line {
+    width: 50%;
+    border-bottom: 2px solid lightslategray;
+    display: inline-block;
+    vertical-align: middle;   
+}
+
 .col-right ul {
     padding:20px 0;
 }
-
 
 /* marketing sales service */
 .three-col {
@@ -242,6 +253,7 @@ p.mini-text {
 section.learn-grow {
     padding: 50px 0;
 }
+
 .learn-grow {
     background-color: #2ecab7;
     color: white;
@@ -312,7 +324,7 @@ section.learn-grow {
 }
 
 .brand-binder{
-    width: 125px;
+    width: 15%;
     vertical-align: middle;
     padding-left: 20px;
     display:inline-block;    
@@ -337,17 +349,10 @@ section.learn-grow {
 
 /* FOOTER */
 
-/* common footer */
-
-
 footer {
     background-color: rgb(44, 46, 46);
     color: white;
     padding: 30px 0;
-}
-
-.four-col {
-    width: 25%;    
 }
 
 /* link col */
@@ -358,7 +363,7 @@ footer {
 
 footer li a {
     color: white;
-    font-size: 10px;
+    font-size: 11px;    
 }
 
 .white-button {
@@ -377,7 +382,7 @@ a.white-button {
 }
 
 .nolistyle.inline a i {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .languages {
