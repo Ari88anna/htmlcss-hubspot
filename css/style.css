@@ -142,8 +142,6 @@ a {
     border-right: 2px solid rgb(26, 24, 24);
 }
 
-
-
 /* jumbotron */
 .jumbotron {
     height: 700px;
@@ -311,15 +309,32 @@ section.learn-grow {
 }
 
 .col-brand img {
-    height:10px;
+    width: 100%;
 }
 
 .brand-binder{
-    display:inline-block;
-    
+    width: 125px;
+    vertical-align: middle;
+    padding-left: 20px;
+    display:inline-block;    
 }
 
+/* support team */
 
+.support-team {
+    width: 70%;
+    text-align: left;
+}
+
+.woman-img img {
+    width: 100%;
+    padding: 0 105px;
+}
+
+.woman-img {
+    position: relative;
+    left: 100px;
+}
 
 
 
