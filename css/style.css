@@ -106,9 +106,7 @@ a {
     border-bottom: 1px solid darkslategray;
 }
 
-.three-col ul,
-.col-right ul,
-.nav-menu ul {
+.nolistyle {
     list-style-type: none;
 
 }
@@ -335,6 +333,32 @@ section.learn-grow {
     position: relative;
     left: 100px;
 }
+
+/* FOOTER */
+
+
+footer {
+    background-color: rgb(44, 46, 46);
+    color: white;
+    padding: 30px 0;
+}
+
+
+/* link col */
+
+.four-col {
+    width: 25%;    
+}
+
+.four-col li {
+    padding: 7px 0;
+}
+
+.four-col a {
+    color: white;
+    font-size: 10px;
+}
+
 
 
 
